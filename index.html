@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--  Cabeza de nuestro documentos  
+UTF8 - lee los acentos 
+title el titulo de la pagina 
+favicon - icono de la barra superior - logo pequeno del navegador
+    rel - relacion 
+    href - es un atributo esencial del elemento <a>; determina el destino del enlace. 
+
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITULO SUPERIOR DE LA BARRA PÁGINA -->
+    <title>Bocado con gusto</title>
+    
+    <!-- FLAVICON - LOGO DE LA PAGINA - NAVEGADOR -->
+    <link rel="icon" href="./assets/bocadocongusto.png">
+
+    <!-- LINKEAR A CSS -->
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- fonts -->
+    <link href="link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<!-- Cuerpo de nuestra pagina
+h1 titulo unico 
+    hasta h6 ojo 
+section para hacer las listas existen 2 desordenadas y ordenadas 
+    ul - unordered list = lista desordenada (con items ○) li (se citan dentro con li)
+    ol - ordered list = lista ordenada (con numeros 🔢) li (se citan dentro con li)
+src - fuente de donde viene
+    alt - texto alternativo cuando no carga la imagen - impedimento de vista que 
+    no pueda ver la imagen - si o si deben ir
+
+**** ENLACES relativos ****
+    <a href= "contacto.html">Contacto</a> (son aquellos que apuntan a paginas ubicadas dentro del mismo proyecto con el nombre de la misma para generar el enlace)
+    <a href= "imagenes/mapa.jpg">ver mapa</a>
+
+    **** ENLACES absolutos ****
+    <a href="http://www.coderhouse.com/fronted">curso de fronted</a>
+    cuyo destino apunta fuera a un documento que esta fuera del sitio y debe ser especificado utilizando URL completa
+    **** ENLACES internos ***
+    <a href="#pie"> ir al pie de página </a>
+    <footer id="pie"></footer>
+
+            se llama anchor <a href=""></a>
+
+    FORMULARIOS = 
+
+-->
+<body>
+    <!-- etiqueta de ENLACES MENÚ -->
+    <header>
+        <img class="barra_logo" src="./assets/bocadocongustologo.png"  alt="logo de de la marca bocado con gusto">
+            <nav class="barra_menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-light fa-bars"></i>
+
+                </label>
+                
+                
+            <ul>
+                <li class="menuhome"><a href="./index.html">Inicio</a></li>
+                <li class="menuhome"><a href="./catalogo/catalogo.html">Catálogo</a></li>
+                <li class="menuhome"><a href="./producto/producto.html">Producto</a></li>
+                <li class="menuhome"><a href="./accesorios/accesorios.html">Accesorios</a></li>
+                <li class="menuhome"><a href="./contactos/contactos.html">Contactos</a></li>
+            </ul>
+
+            </nav>
+    </header>
+
+    <main>
+            <!-- ESTRUCTURA banner -->
+            <!-- ESTRUCTURA banner -->
+
+        <article>
+
+            <section>
+                <div class="contenedor1">
+                    <div class="box1">
+                        <img class="foto_box1" src="./assets/img/Torta.png">
+                            
+                        
+                    </div>
+                        <div class="box2">
+                            <p>Un placer para <br> el paladar</p>
+                            <img class="foto_box2" src="./assets/img/cheesecake_frambuesa.png">
+                    </div>
+
+                    <div class="box3">
+                        <img class="foto_box3" src="./assets/img/CheesecakeCereza.png">
+                        
+                    </div>
+                </div>
+    
+            </section>
+        </article>
+
+        <article>
+            <section>
+                    <!-- Sección #2 van 4 cajas -->
+                    <!-- Sección #2 van 4 cajas -->
+                
+                <div class="contenedor2"> <!-- aqui empieza la caja contenedora -->
+                    
+                    <div class="caja1">
+
+                        <img src=".//assets/img/piedelimon.jpeg">
+                    </div>
+                    <div class="caja2">
+
+                        <img src=".//assets/img/Tiramisu.jpeg">
+                    </div>
+                    <div class="caja3">
+
+                        <img src=".//assets/img/chessecake.jpeg">
+                    </div>
+                    <div class="caja4">
+
+                        <img src=".//assets/img/tortatresleches.jpeg">
+                    </div>
+    
+                </div>  <!-- aqui termina la caja contenedora -->
+    
+            </section>
+        
+
+        </article>
+    
+    <!------------------------ VIDEO DE  -->
+    <!------------------------  YOUTUBE -->
+            <article> 
+                <section>
+                <div class="Contenedor3"> 
+                    <div class="videocaja1">
+                        <p> Curso clases
+                        <br>
+                        - 
+                        <br> 
+                        Recetas </p>
+                    </div>
+
+                    <div class="videocaja2">
+
+                        <iframe src="https://www.youtube.com/embed/yNyeCrKM9Ss" title="Cheesecake Fácil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </div>
+
+                    
+            
+
+                </div>  
+            </section>
+        </article>      
+            
+                <!-- aqui empieza la caja contenedora #4  -->
+                <!-- aqui empieza la caja contenedora #4  -->
+                <!-- aqui empieza la caja contenedora #4  -->
+
+        <section>
+            <div class="contenedor4">
+                
+                <div class="modulo1">
+                    <img src="./assets/img/bolw.png" alt="">
+                    
+                </div>
+                <div class="modulo2">
+                    <img src="./assets/img/cups.jpeg" alt="">
+                    
+                </div>            
+                <div class="modulo3">
+                    <img src="./assets/img/termometro.png" alt="">
+
+                </div>
+                <div class="modulo4">
+                    <img src="./assets/img/rejilla.jpeg" alt="">
+            </div>
+
+        </div>
+        </section>
+
+                <!-- aqui empieza la caja contenedora #5  -->
+                <!-- aqui empieza la caja contenedora #5  -->  
+                <!-- aqui empieza la caja contenedora #5  -->
+        
+        <section>
+            <div class="contenedor5">
+                <div class="cajon1">
+                    <img src="./assets/img/envío.jpeg" alt="">
+
+                </div>
+                <div class="cajon2">
+                    <img src="./assets/img/descuento.jpeg" alt="">
+
+                    </p>
+
+                    </p>
+
+
+
+                </div>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+                
+        </section>
+    
+
+
+    </section>
+
+
+
+    </main> 
+
+
+
+
+
+<!-- utilizamos ./ para INGRESAR a un directorio ../ para SALIR -->
+
+
+
+
+
+
+
+        <footer> 
+            <div class="container_footer">
+                <div class="box_footer">
+                    <div class="logo">
+                        <img src="./assets/bocadocongusto.png" alt="">
+        
+                </div>
+        
+            </div>
+            <div class="terminos">
+                <p>Servicio a cliente
+                    <br>Horario: 10 a 19hrs.</p>
+        
+            </div>
+        
+            <div class="box_footer">
+                <h2>Catálogo</h2>
+                <a href="catalogo.html">Brownie</a>
+                <a href="catalogo.html">Pie de limón</a>
+                <a href="catalogo.html">Cheesecake</a>
+                <a href="catalogo.html">Tres Leches</a>
+                <a href="catalogo.html">Cake</a>
+            </div>
+            <div class="box_footer">
+                <h2>Productos</h2>
+                <a href="producto.html">Brownie</a>
+                <a href="producto.html">Pie de limón</a>
+                <a href="producto.html">Cheesecake</a>
+                <a href="producto.html">Tres Leches</a>
+                <a href="producto.html">Cake</a>
+            </div>
+            <div class="box_footer">
+                <h2>Accesorios</h2>
+                <a href="accesorios.html">Brownie</a>
+                <a href="accesorios.html">Pie de limón</a>
+                <a href="accesorios.html">Cheesecake</a>
+                <a href="accesorios.html">Tres Leches</a>
+                <a href="accesorios.html">Cake</a>
+            </div>
+            <div class="box_footer">
+                <h2>Síguenos</h2>
+                <a href="#"><i class="<i class="fa-brands fa-instagram" style="color: #fafafa;"></i></i></i>Brownie</a>
+        
+            </div>
+        </div>
+        
+        
+        <div class="box_copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2023
+            <b>Guillendesign</b></p>
+            
+        </div>
+        
+        
+        </footer>
+        
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITULO SUPERIOR DE LA BARRA PÁGINA -->
+    <title>Bocado con gusto</title>
+    
+    <!-- FLAVICON - LOGO DE LA PAGINA - NAVEGADOR -->
+    <link rel="icon" href="../assets/bocadocongusto.png">
+
+    <!-- LINKEAR A CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+
+
+<body>
+<!-- la etiqueta de <form> es lo que va a englobar nuestro formulario
+    debe ir acompanado de los atributos "action", "method", "enctype":
+        action: medio por el cual van a procesarse los datos
+        method: método de envío "GET" O "POST"
+        enctype: tipo de encripción de los datos cargados
+    
+    <input> son los campos donde el usuario va a estar cargando la información, siempre acompa;andolos
+    de un "type" que indica el tipo de input y un "name" que le asigna un nombre específico
+    
+    <select> es un tipo de input que despliega una lista de opciones. Estas opciones se escriben dentro con 
+        la etiqueta de <option> y funcionan similar a las listas con <ul> - <li>
+    
+    <fieldset> se usa en conjunto con <legend> y bordean un grupo de inputs dentro de un cuadrado
+    
+    <label> indica el texto que acompaña el <input> correspondiente
+
+            type: indica el tipo de input
+            name: le asigna un nombre al dato que se está cargando
+            id> le asigna un nombre al input que puede ser referido por una <label> o
+                mediante JS
+            for: debe coincidir con un "id" para referir a este elemento
+            value: ubica un texto donde sea llamado
+            placeholder: texto de ejemplo para ayudar a entender qué tipo de dato se necesita
+            required: se usa para indicar qué campos son obligatorios antes de enviar el formulario.
+
+-->  <!-- etiqueta de ENLACES MENÚ -->
+        <header>
+            <img class="barra_logo" src="../assets/bocadocongustologo.png"  alt="logo de de la marca bocado con gusto" ></li>
+            <nav class="barra_menu">
+                
+                    <ul>
+                        <li class="menuhome"><a href="../index.html">Inicio</a></li>
+                        <li class="menuhome"><a href="../catalogo/catalogo.html">Catálogo</a></li>
+                        <li class="menuhome"><a href="../producto/producto.html">Producto</a></li>
+                        <li class="menuhome"><a href="../accesorios/accesorios.html">Accesorios</a></li>
+                        <li class="menuhome"><a href="../contactos/contactos.html">Contactos</a></li>
+                        
+                    </ul>
+    
+            </nav>
+            </header>
+        
+            <main>
+                <article>
+                    <Seccion>
+                        <h1>Esta es mi página de contacto</h1>
+                
+                    </Seccion>
+            
+                </article>
+            
+            
+            
+            </main>
+
+
+<!-- FORMULARIO ETIQUETA DE BLOQUE 
+get - no se usa mucho
+post - mas frecuente su uso
+enctype - encriptado no lo vamos a usar mucho
+-->
+
+<!-- ======== ====================================formulario ======= -->
+                    
+        <main>
+            <form action="" method="post"> 
+
+        
+                        <article> 
+                            <section class="form-register">
+                                <h4>Formulario Registro</h4>
+                                <label for="nombre">Ingrese su Nombre:</label>
+                                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Pedro">
+                                <label for="nombre">Ingrese su Apellido:</label>
+                                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Martin">
+                                <label for="nombre">Ingrese su Correo:</label>
+                                <input class="controls" type="email" name="correo" id="correo" placeholder="email@ejemplo.com" required>
+                                <label for="nombre">Ingrese su Contraseña:</label>
+                                <input class="controls" type="password" name="nombres" id="nombres" placeholder="Ingrese su Contraseña">
+                                <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+                                <input class="boton" type="submit" value="Registrar">
+                                <p><a href="#">Ya tengo cuenta</a></p>
+                            </section>
+            
+            
+                        </article>
+        
+                    
+                    
+            </form>
+        </main>
+
+                
+
+    <!-- label for va con el ID en conjunto-- placeholder nombre de fondo-->
+
+        <!-- agregar un cuadro de texto para escribir -->
+        
+        <!-- fieldset es para recuadrar o seccionar el contenido 
+                legend es para colocarle el nombre al recuadro
+        -->        
+
+
+
+</body>
+
+<footer> 
+    <div class="container_footer">
+        <div class="box_footer">
+            <div class="logo">
+                <img src="../assets/bocadocongusto.png" alt="">
+
+        </div>
+
+    </div>
+    <div class="terminos">
+        <p>Servicio a cliente
+            <br>Horario: 10 a 19hrs.</p>
+
+    </div>
+
+    <div class="box_footer">
+        <h2>Catálogo</h2>
+        <a href="catalogo.html">Brownie</a>
+        <a href="catalogo.html">Pie de limón</a>
+        <a href="catalogo.html">Cheesecake</a>
+        <a href="catalogo.html">Tres Leches</a>
+        <a href="catalogo.html">Cake</a>
+    </div>
+    <div class="box_footer">
+        <h2>Productos</h2>
+        <a href="producto.html">Brownie</a>
+        <a href="producto.html">Pie de limón</a>
+        <a href="producto.html">Cheesecake</a>
+        <a href="producto.html">Tres Leches</a>
+        <a href="producto.html">Cake</a>
+    </div>
+    <div class="box_footer">
+        <h2>Accesorios</h2>
+        <a href="accesorios.html">Brownie</a>
+        <a href="accesorios.html">Pie de limón</a>
+        <a href="accesorios.html">Cheesecake</a>
+        <a href="accesorios.html">Tres Leches</a>
+        <a href="accesorios.html">Cake</a>
+    </div>
+    <div class="box_footer">
+        <h2>Síguenos</h2>
+        <a href="#"><i class="<i class="fa-brands fa-instagram" style="color: #fafafa;"></i></i></i>Brownie</a>
+
+    </div>
+</div>
+
+
+<div class="box_copyright">
+    <hr>
+    <p>Todos los derechos reservados © 2023
+    <b>Guillendesign</b></p>
+    
+</div>
+
+
+</footer>
+
+
+</html>
