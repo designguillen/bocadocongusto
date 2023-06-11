@@ -1,6 +1,6 @@
-/******carrusel/
+/******carrusel**/
 
-* {box-sizing:border-box}
+{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -16,7 +16,6 @@
 
   /* Next & previous buttons */
 .prev .next {
-    cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
@@ -29,6 +28,7 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
 
   /* Position the "next button" to the right */
 .next {

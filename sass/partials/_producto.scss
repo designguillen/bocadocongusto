@@ -4,15 +4,18 @@
 
 .gallery {
     border: 1px solid #ccc;
+    margin-top: 5000px;
 }
 
 .gallery:hover {
     border: 1px solid #777;
+
 }
 
 .gallery img {
     width: 100%;
     height: auto;
+
 }
 
 .desc {
@@ -25,10 +28,14 @@
 }
 
 .responsive {
-    padding: 0 6px;
+    padding-top: 80px;
     float: left;
-    width: 24.99999%;
-    margin-bottom: 2000px;
+    width: 32%;
+
+}
+
+.section2{
+    margin-top: auto;
 
 }
 
@@ -58,9 +65,11 @@
 
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
+    position: absolute;
+    height: 800px;
+    width: 800px;
+
+    
 }
 
   /* Make the image to responsive */
@@ -68,6 +77,7 @@
     display: block;
     width: 100%;
     height: auto;
+
 }
 
   /* The overlay effect - lays on top of the container and over the image */

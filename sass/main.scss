@@ -3,6 +3,7 @@
 @import "./partials/producto.scss";
 @import "./partials/contactos.scss";
 
+
 /* TIPOGRAFIAS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
@@ -22,7 +23,8 @@ header{
     width: 100%;
     padding: 1px 0px;
     background: #FEF1E3;
-    position: fixed; 
+    position: fixed;
+    z-index: 1000px;
 }
 
 
